@@ -1,0 +1,27 @@
+{
+	"name": "<%= moduleName %>",
+	"version": "0.0.0",
+	"description": "<%= description %>",
+	"main": "index.js",
+	"scripts": {
+		"lint": "tslint -p . --format stylish",
+		"compile": "tsc",
+		"test": "npm run lint && npm run compile && ava dist/test.js"
+	},
+	"keywords": "<%= keywords %>",
+	"files": [
+		"index.js"
+	],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"aws-sdk": "^2.224.1"
+	},
+	"devDependencies": {
+		"@types/node": "^9.6.5",
+		"ava": "^0.25.0",
+		"tslint": "^5.9.1",
+		"tslint-xo": "^0.7.0",
+		"typescript": "^2.8.1"
+	}
+}

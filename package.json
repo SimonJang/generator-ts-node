@@ -1,0 +1,34 @@
+{
+  "name": "generator-ts-node-aws",
+  "version": "0.0.0",
+  "description": "Generator to scaffold a typescript powered node module for AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonJang/generator-ts-node.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "typescript"
+  ],
+  "author": "Simon Jang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimonJang/generator-ts-node/issues"
+  },
+  "homepage": "https://github.com/SimonJang/generator-ts-node#readme",
+  "dependencies": {
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^2.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "pify": "^3.0.0",
+    "xo": "^0.20.3",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^1.7.0"
+  }
+}
