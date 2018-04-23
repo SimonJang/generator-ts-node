@@ -5,7 +5,7 @@ A `Yeoman` generator to scaffold a Typescript powered node module
 # Setup
 
 ```
-yo ts-node
+yo ts-node-aws
 ```
 
 # Lint
